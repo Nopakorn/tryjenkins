@@ -16,7 +16,7 @@ namespace tryjenkins
         }
 
         [Test]
-        public void TestMethod2()
+        public void TestMethod22()
         {
             var a = 1;
             var b = 3;
