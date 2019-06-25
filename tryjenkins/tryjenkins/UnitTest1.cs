@@ -10,6 +10,31 @@ namespace tryjenkins
         public void TestMethod1()
         {
             var a = 1;
+            var b = 3;
+            var yo = "yo";
+            Assert.IsFalse(a == b, "test failed.");
+        }
+
+        [Test]
+        public void TestMethod2()
+        {
+            var a = 1;
+            var b = 2;
+            Assert.IsFalse(a == b, "test failed.");
+        }
+
+        [Test]
+        public void TestMethod3()
+        {
+            var a = 1;
+            var b = 2;
+            Assert.IsFalse(a != b, "test failed.");
+        }
+
+        [Test]
+        public void TestMethod4()
+        {
+            var a = 1;
             var b = 2;
             Assert.IsFalse(a == b, "test failed.");
         }
