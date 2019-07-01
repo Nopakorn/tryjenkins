@@ -28,7 +28,7 @@ namespace tryjenkins
         {
             var a = 1;
             var b = 2;
-            Assert.IsFalse(a != b, "test failed.");
+            Assert.IsFalse(a == b, "test failed.");
         }
 
         [Test]
